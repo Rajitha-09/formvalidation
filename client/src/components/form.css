@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(28, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 100px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  form {
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: blue;
+    outline: none;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button[type="reset"] {
+    background-color: #f44336;
+    margin-top: 10px;
+  }
+  
+  button[type="reset"]:hover {
+    background-color: #e53935;
+  }
+  
+  p {
+    color: #f44336;
+    font-size: 0.9rem;
+    margin: 3px 0;
+  }
+  
+  p.message {
+    color: #4CAF50;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
